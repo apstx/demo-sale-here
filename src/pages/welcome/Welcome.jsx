@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from '../../images/logo.png';
-import HomeAction from '../home/actions/HomeAction';
 import ButtonMain from '../../components/ButtonMain';
 import ButtonSecond from '../../components/ButtonSecond';
 import WelcomeAction from './actions/WelcomeAction';

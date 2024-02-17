@@ -29,7 +29,7 @@ export default function ChatRoomAction() {
     }
 
     const update = () => {
-        localStorage.setItem('chatRoom', JSON.stringify(messageRoom))
+        localStorage.setItem('chatRoom', JSON.stringify(messageRoom));
         setLogMsg(JSON.parse(localStorage.getItem('chatRoom')));
     }
 

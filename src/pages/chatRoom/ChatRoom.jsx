@@ -37,7 +37,7 @@ export default function ChatRoom() {
             ]);
             isFirst.current = false;
         } 
-        handleClickScroll()
+        handleClickScroll();
     }, [messageRoom]);
 
     return (
