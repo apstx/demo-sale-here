@@ -1,6 +1,4 @@
-import { useState } from 'react'
 import './App.css'
-import Logo from './images/logo.png'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/home/Home'
 import Welcome from './pages/welcome/Welcome'
